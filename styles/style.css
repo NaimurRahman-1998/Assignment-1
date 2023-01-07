@@ -1,0 +1,214 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    font-size: 35px;
+}
+
+h2 span {
+    color: rgb(63, 108, 255);
+}
+
+.header {
+    background-image: url(../images/banner/banner2.png);
+    height: 700px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    padding-top: 20px;
+}
+
+.navigation ul {
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+.navigation li {
+    padding: 20px;
+    font-size: 25px;
+    margin-right: 20px;
+}
+
+.button {
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: none;
+    font-weight: 600;
+    font-size: 16px;
+    background-color: rgb(63, 108, 255);
+}
+
+.banner {
+    margin-left: 900px;
+    margin-top: 80px;
+    margin-right: 230px;
+    text-align: right;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 60px;
+}
+
+.banner .description {
+    margin-top: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: right;
+    color: #444343;
+    margin-bottom: 24px;
+
+}
+
+.description {
+    font-weight: 400;
+    color: #444343;
+    font-size: 16px;
+    line-height: 26px;
+    padding: 10px 0;
+}
+
+main {
+    width: 80%;
+    margin: auto;
+    padding: 5% 0;
+}
+
+main section {
+    padding-bottom: 10%;
+}
+
+.section-1 {
+    display: flex;
+}
+
+.confused-girl img {
+    width: 80%;
+    padding-left: 50px;
+}
+
+.failure {
+    margin-left: 45px;
+    padding-top: 15%;
+}
+
+.failure .title{
+    margin-right: 250px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.failure .description span {
+    color: #16D887;
+}
+
+.section-2 h2 {
+    text-align: center;
+    font-size: 40px;
+}
+
+.plans {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.plan .title {
+    font-size: 30px;
+}
+
+.plan .description {
+    font-size: 25px;
+}
+
+.section-3{
+    background: url('../images/watch.png'), linear-gradient(90deg, rgb(63, 108, 255) 0%, rgba(241, 34, 34, 0) 100%);
+    background-blend-mode: overlay;
+    height: 178px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+.section-3 .title {
+    font-size: 40px;
+    color: #FFFFFF;
+    padding-top: 70px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+}
+
+.section-3 .button {
+    background: #FFFFFF;
+    margin-left: 50px;
+    margin-top: 5px;
+}
+
+footer{
+    height: 80vh;
+    background-color: #151414; 
+    display: flex;  
+    justify-content: space-around;
+    align-items: center;
+}
+
+.footer .title{
+    color: #f8f8f8;
+}
+
+.footer .description{
+    color: #FFFFFF;
+}
+
+.icon{
+    margin-top: 15px;
+}
+
+.icon img{
+    margin-right: 5px;
+}
+
+.f-form{
+    margin-top: -10%;
+}
+
+.f-form h2{
+    color: #f8f8f8;
+    margin-bottom: 12px;
+}
+
+.f-form button{
+    background: #FFFFFF;
+    margin-top: 20px;
+}
+
+.f-form button a{
+    color: #F15B22;
+}
+
+.f-form input[type="email"]{
+    background: none;
+    width: 295px;
+    border: 1px solid #FFFFFF;
+    padding: 18px 23px;
+    color: #FFFFFF;
+    border-radius: 6px;
+}
+
+.f-form input::placeholder{
+    color: #FFFFFF;
+}
